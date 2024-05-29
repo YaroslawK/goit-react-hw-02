@@ -1,5 +1,5 @@
-function Feedback({ feedback, totalFeedback }) {
-  const positiveFeedback = ((feedback.good / totalFeedback) * 100).toFixed(0);
+function Feedback({ feedback, totalFeedback, positiveFeedback }) {
+ 
   return (
     <div>
         <p>Good: {feedback.good}</p>
